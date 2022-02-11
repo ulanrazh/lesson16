@@ -3,14 +3,16 @@ package peaksoft;
 import java.time.LocalDate;
 import java.util.Arrays;
 
-public class Group extends Student {
-    private String[] students;
+public class Group extends Student { //Don't extend Student class
+    private String[] students; // make Student[] students
     private String course;
     private LocalDate startDate;
 
     public Group() {
     }
 
+    //always define all arg constructor
+    
     public String[] getStudents() {
         return students;
     }
