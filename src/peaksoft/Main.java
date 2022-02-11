@@ -41,8 +41,14 @@ public class Main {
 
 
 
-
-
+        //there is some wrong staffs
+        //you should define only one Course
+        // and define a lot of Groups inside Course
+        // and inside Course a lot of Students
+        
+//         public class Course extends Student {} <= this is not correect, it shouldn't extend Student.class
+//            public class Group extends Student {} <= this is not correect, it shouldn't extend Student.class
+        
 
     }
 }
