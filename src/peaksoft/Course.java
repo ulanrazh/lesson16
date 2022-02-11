@@ -2,7 +2,7 @@ package peaksoft;
 
 import java.util.Arrays;
 
-public class Course extends Student {
+public class Course extends Student { // don't extend Student class
     private String courseName;
     private byte courseNumber;
     private String mentorName;
