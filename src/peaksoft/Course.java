@@ -6,11 +6,13 @@ public class Course extends Student {
     private String courseName;
     private byte courseNumber;
     private String mentorName;
-    private String[] groups;
+    private String[] groups; // there should've Group[] groups update getters & setters & toString();
 
     public Course() {
     }
 
+    //all-arg constructors
+    
     public String getCourseName() {
         return courseName;
     }
